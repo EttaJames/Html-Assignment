@@ -1,0 +1,338 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #0083B0;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover; 
+}
+
+/* Navigation Styles */
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+    /* background-color:#93291E3A; - Won't delete to check color contrast */
+    border: 1px solid #f3f4f6;
+}
+
+/* Button Styles in Navigation */
+nav .btn {
+    color: white;
+    background-color: #93291E;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #0083B0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('../Assignment/images/bank.png'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.hero-cta {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #0083B0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+    background-color: #0083B0;
+    border: 1px solid rgb(66, 64, 64);
+}
+
+/* Landing Page Styles */
+.landing {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.landing h1 {
+    font-size: 36px;
+}
+
+.landing p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.services h2 {
+    font-size: 24px;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin: 10px 0;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0083B0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.cta:hover {
+    /* background-color: #0d47a1; */
+    border: 1px solid whitesmoke;
+}
+
+/* Transfer Page Styles */
+.transfer {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.transfer h1 {
+    font-size: 28px;
+}
+
+.transfer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.transfer label {
+    margin: 10px 0 5px;
+}
+
+.transfer input {
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.transfer button {
+    padding: 10px 20px;
+    background-color: #0083B0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.transfer button:hover {
+    background-color: #0083B0;
+    border: 1px solid rgb(66, 64, 64);
+}
+
+/* Sign Up and Sign In Page Styles */
+.signup input, .signin input {
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.signup, .signin {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.signup h1, .signin h1 {
+    font-size: 28px;
+}
+
+.signup button, .signin button {
+    padding: 10px 20px;
+    background-color: #0083B0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup button, .signin button:hover {
+    background-color: #0083B0;
+    border: 1px solid whitesmoke;
+}
+
+.signup form, .signin form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup label, .signin label {
+    margin: 10px 0 5px;
+}
+
+.special:hover{
+    background-color: #0083B0;
+    border: 1px solid rgb(66, 64, 64);
+}
+
+.labelfont{
+    font-size: 18px;
+}
+
+/* Transaction Page styles */
+.transactions-intro {
+    text-align: center;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #0083B0;
+    color: white;
+    border-radius: 8px;
+}
+
+.transactions-intro h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.transactions-intro p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.transactions-table {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+table {
+    width: 90%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #0083B0;
+    color: white;
+}
+
+thead th {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+}
+
+tbody td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    font-size: 15px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+tbody td:nth-child(5), /* Amount */
+tbody td:nth-child(6) { /* Status */
+    text-align: center;
+}
+
+/* Contact Page Styles */
+.contact {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 28px;
+}
+
+.contact p {
+    font-size: 18px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #0083B0;
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
